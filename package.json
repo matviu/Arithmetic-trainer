@@ -1,0 +1,41 @@
+{
+  "name": "arithmetic-trainer",
+  "version": "1.0.0",
+  "description": "Учебный проект для реализации возможностей чистого JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matviu/Arithmetic-trainer.git"
+  },
+  "keywords": [
+    "html",
+    "css/less",
+    "js",
+    "gulp",
+    "dadaptive"
+  ],
+  "author": "Alexander Matvienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matviu/Arithmetic-trainer/issues"
+  },
+  "homepage": "https://github.com/matviu/Arithmetic-trainer#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.18.13",
+    "css-mqpacker": "^6.0.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-less": "^3.3.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "run-sequence": "^2.1.0"
+  }
+}
