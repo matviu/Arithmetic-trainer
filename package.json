@@ -1,5 +1,5 @@
 {
-  "name": "arithmetic-trainer",
+  "name": "training-modules",
   "version": "1.0.0",
   "description": "Учебный проект для реализации возможностей чистого JS",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matviu/Arithmetic-trainer.git"
+    "url": "git+https://github.com/matviu/training-modules.git"
   },
   "keywords": [
     "html",
@@ -21,9 +21,9 @@
   "author": "Alexander Matvienko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/matviu/Arithmetic-trainer/issues"
+    "url": "https://github.com/matviu/training-modules/issues"
   },
-  "homepage": "https://github.com/matviu/Arithmetic-trainer#readme",
+  "homepage": "https://github.com/matviu/training-modules#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "browser-sync": "^2.18.13",
