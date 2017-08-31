@@ -1,0 +1,105 @@
+.arithmetic-trainer__container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+
+  outline: 1px green solid;
+}
+
+.start-training {
+  display: block;
+  margin: 0 auto;
+}
+
+.end-training {
+  display: block;
+  margin: 0 auto;
+}
+
+.expression {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+}
+
+.operand {
+  min-height: 25px;
+  width: 30px;
+  padding-top: 3px;
+
+  background-color: #fff;
+
+  text-align: center;
+}
+
+.operator {
+  min-height: 25px;
+  width: 15px;
+  padding-top: 3px;
+
+  background-color: #fff;
+
+  text-align: center;
+}
+
+.message-container {
+  display: none;
+
+  position: absolute;
+  right: -150px;
+  bottom: 0;
+
+  width: 200px;
+  min-height: 50px;
+
+  background-color: pink;
+}
+
+[name="user-answer"] {
+  display: block;
+  margin: 0px;
+  height: 25px;
+  width: 30px;
+  border: none;
+
+  text-align: center;
+}
+
+.proceed {
+  display: block;
+  margin: 0 auto;
+}
+
+.answers-counters {
+  display: flex;
+  justify-content: space-around;
+}
+
+.answers-count {
+  min-height: 25px;
+  width: 50px;
+  padding-top: 3px;
+
+  background-color: #fff;
+
+  text-align: center;
+
+  &_right {
+    color: green;
+  }
+
+  &_wrong {
+    color: red;
+  }
+}
+
+.list-wrong-answers {
+  height: 300px;
+
+  background-color: #ffffff;
+
+  overflow: auto;
+}

@@ -53,7 +53,6 @@ gulp.task("serve", function() {
   gulp.watch("less/**/*.less", ["style"]);
   gulp.watch("*.html", ["copy-html"]);
   gulp.watch("js/**/*.js", ["copy-js"]);
-  gulp.watch("img/**/*.{png,gif,jpg}", ["copy-img"]);
 });
 
 gulp.task("copy", function() {
@@ -71,7 +70,8 @@ gulp.task("copy", function() {
 
 gulp.task("copy-html", function() {
   return gulp.src([
-    "*.html"
+    "*.html",
+    "img/**"
   ], {
     base: "."
   })
@@ -82,16 +82,6 @@ gulp.task("copy-html", function() {
 gulp.task("copy-js", function() {
   return gulp.src([
     "js/**"
-  ], {
-    base: "."
-  })
-  .pipe(gulp.dest("build"))
-  .pipe(server.reload({stream: true}))
-});
-
-gulp.task("copy-img", function() {
-  return gulp.src([
-    "img/**"
   ], {
     base: "."
   })

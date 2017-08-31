@@ -4,9 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Арифметический тренажер</title>
+
+  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="icon" href="img/favicon.ico" type="x-icon">
+
+  <script src="js/javascript.js" defer></script>
+
+  <title>Тренировочные модули</title>
 </head>
 <body>
-123456123
+  <section class="arithmetic-trainer">
+    <div class="arithmetic-trainer__container">
+      <button class="start-training" type="button">Запустить тренажер</button>
+      <div class="expression">
+        <div class="operand operand_1"></div>
+        <div class="operator operator_1_2"></div>
+        <div class="operand operand_2"></div>
+        <div class="operand">=</div>
+        <input type="text" name="user-answer">
+        <div class="message-container"></div>
+      </div>
+      <button class="proceed disabled" type="button">далее</button>
+      <div class="answers-counters">
+        <div class="answers-count answers-count_right "></div>
+        <div class="answers-count answers-count_wrong"></div>
+      </div>
+      <ul class="list-wrong-answers"></ul>
+      <button class="end-training disabled" type="button">Остановить тренажер</button>
+    </div>
+
+  </section>
 </body>
 </html>
