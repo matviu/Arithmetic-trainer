@@ -1,1 +1,1 @@
-# Arithmetic-trainer
+# training-modules
